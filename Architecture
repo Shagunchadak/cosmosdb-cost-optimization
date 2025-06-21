@@ -1,0 +1,6 @@
+ [Client or API]
+               |
+        [Azure Function Proxy]
+           /            \
+     Cosmos DB        Blob Storage (archive)
+      (0–3 mo)         (older than 3 mo)
